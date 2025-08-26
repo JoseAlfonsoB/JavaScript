@@ -7,7 +7,7 @@
 
 Para buenas practicas al momento de crear directorios/archivos en JavaScript existe algo a lo que se le conoce como **Kebab Case**, y lo cual consiste en **separar los nombres de los archivos por guiones medios**, también existe algo otra practica llamada **Snake Case**, la cual consiste en **separar los nombres de archivos por guiones bajos**, pero por buenas practicas debemos usar Kebab Case.
 
-#### Impresión de Hola Mundo en JS
+### Impresión de Hola Mundo en JS
 
 ```js
 console.log("Hola Mundo!");
@@ -19,7 +19,7 @@ console.log("Hola Mundo!");
 
 En JS el **punto y coma es opcional**.
 
-#### Comentarios en JS
+### Comentarios en JS
 
 Para hacer un comentario de una sola linea, debemos hacer lo siguiente:
 
@@ -38,7 +38,7 @@ lineas
 ```
 
 
-#### Variables
+### Variables
 
 En JS **existen tres maneras** clave de **crear variables**, usando las palabras reservadas **var**, **let** y **const**, y cada una cumple con ciertos objetivos.
 
@@ -54,7 +54,7 @@ var holaMundo = "Hola JavaScript";
 > Hoy en día, esta es la manera en como **NO debemos declarar una variable en JavaScript**, por la simple y sencilla razón de que no es una buena practica usar **var** para declarar nuestras variables.
 
 
-#### Diferencias entre var, let y const
+### Diferencias entre var, let y const
 
 1. var
 - Es viejo y casi **no se usa actualmente**.
@@ -73,7 +73,7 @@ var holaMundo = "Hola JavaScript";
 - Su valor **no puede ser alterado**.
 - **Funciona solo donde fue declarada**.
 
-#### Tipos de datos primitivos en JS
+### Tipos de datos primitivos en JS
 
 Un valor en JS siempre pertenece a un tipo de dato determinado. **Hay ocho tipos de datos básicos en JS**.
 
@@ -89,7 +89,7 @@ message = 124;
 A esto se le llama **lenguajes dinamicamente tipados**.
 Lo que significa que las **variables no estan vinculadas rígidamente a ningún tipo de dato**.
 
-#### Tipos de datos 
+### Tipos de datos 
 
 - **Number**
 ```js
