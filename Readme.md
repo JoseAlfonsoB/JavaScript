@@ -167,7 +167,7 @@ Si una variable es **declarada**, pero **no asignada**, entonces so valor es **u
 
 Todos los demás tipos se llaman **primitivos**, porque **sus valores pueden contener una sola cosa** (ya sea una cadena, un número o lo que sea).
 
-	Por lo contrario, los **objetos** se **utilizan para almacenar colecciones de datos** y **entidades** más **complejas** como un **array** (arreglo).
+Por lo contrario, los **objetos** se **utilizan para almacenar colecciones de datos** y **entidades** más **complejas** como un **array** (arreglo).
 
 - Symbol
 
