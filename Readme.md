@@ -134,7 +134,7 @@ Las **comillas dobles** y las **comillas simples** son comillas **"sencillas** (
 
 Las Backticks son comillas de **"funcionalidad extendida"**. Nos permiten **incrustar variables** y **expresiones** en una cadena de caracteres encerando las dentro de `${...}`.
 
-> [!EXAMPLE]
+> [!TIP]
 > ```js
 > alert(´El resultado es: ${1+2}´)
 > ```
@@ -156,7 +156,7 @@ Es solo un **valor especial** que **representa "nada", "vacio"** o **"valor desc
 El valor especial **"undefined"** significa que es un **"valor no asignado"**.
 Si una variable es **declarada**, pero **no asignada**, entonces so valor es **undefined**.
 
-> [!EXAMPLE]
+> [!TIP]
 > ``` JS
 > let age;
 > alert (age); // se muestrará undefined.
