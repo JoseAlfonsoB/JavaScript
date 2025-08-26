@@ -106,7 +106,7 @@ Además, existen los llamados **"valores numéricos especiales"** que igual pert
 - **_infinity_**: Representa el **infinito matemático**. Es un **valor especial** que es **mayor que cualquier número**.
 - **_NaN_**: Representa un **error de calculo**. es el **resultado** de una **operación matemática incorrecta** o idenfinida.
 
-> [!NOTA]
+> [!NOTE]
 > NaN es **"pegajoso"**. Cualquier otra operación sobre **NaN** devuelve **NaN**.
 
 Por lo tanto, **si hay un NaN en** alguna parte de **una operación matemática** esta **se propaga a todo el resultado**.
