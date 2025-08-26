@@ -125,9 +125,9 @@ Un valor BigInt se crea agregando **n** al final de un entero.
 - String
 Un **String** es una cadena de **caracteres** y debe **colocarse entre  comillas**.
 En JS  existen tres tipos de comillas:
-1. Comillas dobles "Hola"
-2. Comillas simples 'Hola'
-3. Backticks (comillas invertidas) ´Hola´
+1. **_Comillas dobles_** "Hola"
+2. **_Comillas simples_** 'Hola'
+3. **_Backticks_** (comillas invertidas) ´Hola´
 
 
 Las **comillas dobles** y las **comillas simples** son comillas **"sencillas** (es decir, funcionan igual).
