@@ -50,7 +50,8 @@ Ahora, para crear variables, **los nombres** de las **variables deben ser descri
 var holaMundo = "Hola JavaScript";
 ```
 
-> NOTA: Hoy en día, esta es la manera en como **NO debemos declarar una variable en JavaScript**, por la simple y sencilla razón de que no es una buena practica usar **var** para declarar nuestras variables.
+> [!NOTA]
+> Hoy en día, esta es la manera en como **NO debemos declarar una variable en JavaScript**, por la simple y sencilla razón de que no es una buena practica usar **var** para declarar nuestras variables.
 
 
 #### Diferencias entre var, let y const
@@ -87,4 +88,26 @@ message = 124;
 
 A esto se le llama **lenguajes dinamicamente tipados**.
 Lo que significa que las **variables no estan vinculadas rígidamente a ningún tipo de dato**.
+
+#### Tipos de datos 
+
+- **Number**
+```js
+int n = 1234;
+n = 12.43;
+```
+
+Representa tanto a los **números enteros** como a los **números de punto decimal** (flotante).
+
+Además, existen los llamados **"valores numéricos especiales"** que igual pertenecen a este tipo:
+
+> **infinity, -infinity y NaN.**
+
+- **_infinity_**: Representa el **infinito matemático**. Es un **valor especial** que es **mayor que cualquier número**.
+- **_NaN_**: Representa un **error de calculo**. es el **resultado** de una **operación matemática incorrecta** o idenfinida.
+
+> [!NOTA]
+> NaN es **"pegajoso"**. Cualquier otra operación sobre **NaN** devuelve **NaN**.
+
+Por lo tanto, **si hay un NaN en** alguna parte de **una operación matemática** esta **se propaga a todo el resultado**.
 
