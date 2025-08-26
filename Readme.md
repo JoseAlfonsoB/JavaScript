@@ -50,7 +50,7 @@ Ahora, para crear variables, **los nombres** de las **variables deben ser descri
 var holaMundo = "Hola JavaScript";
 ```
 
-> [!NOTA]
+> [!NOTE]
 > Hoy en día, esta es la manera en como **NO debemos declarar una variable en JavaScript**, por la simple y sencilla razón de que no es una buena practica usar **var** para declarar nuestras variables.
 
 
