@@ -111,7 +111,7 @@ Además, existen los llamados **"valores numéricos especiales"** que igual pert
 
 Por lo tanto, **si hay un NaN en** alguna parte de **una operación matemática** esta **se propaga a todo el resultado**.
 
-- BigInt
+- **BigInt**
 BigInt se agrego recientemente al lenguaje para **representar enteros de una longitud muy grande**.
 
 Este tipo de dato lo podemos usar para **criptografia** o **marcas de tiempo de precisión de microsegundos**.
@@ -122,7 +122,7 @@ Un valor BigInt se crea agregando **n** al final de un entero.
 > ```
 
 
-- String
+- **String**
 Un **String** es una cadena de **caracteres** y debe **colocarse entre  comillas**.
 En JS  existen tres tipos de comillas:
 1. **_Comillas dobles_** "Hola"
@@ -139,19 +139,19 @@ Las Backticks son comillas de **"funcionalidad extendida"**. Nos permiten **incr
 > alert(´El resultado es: ${1+2}´)
 > ```
 
-- Boolean (tipo lógico)
+- **Boolean (tipo lógico)**
 
 El tipo **Boolean tiene solo dos valores** posibles **true** y/o **false** .
 Este tipo de dato se usa comúnmente para almacenar valores de **si** y **no**.
 
-- El valor "Null"
+- **El valor "Null"**
 
 El valor especial **"Null"** no pertence a ninguno de los tipos descritos anteriormente.
 En JavaScript **null** no es una **"referencia a un objeto  inexistente"** o un **"puntero nulo"**, como en otros lenguajes.
 
 Es solo un **valor especial** que **representa "nada", "vacio"** o **"valor desconocido"**.
 
-- Undefined
+- **Undefined**
 
 El valor especial **"undefined"** significa que es un **"valor no asignado"**.
 Si una variable es **declarada**, pero **no asignada**, entonces so valor es **undefined**.
@@ -163,13 +163,13 @@ Si una variable es **declarada**, pero **no asignada**, entonces so valor es **u
 > ```
 
 
-- Object
+- **Object**
 
 Todos los demás tipos se llaman **primitivos**, porque **sus valores pueden contener una sola cosa** (ya sea una cadena, un número o lo que sea).
 
 Por lo contrario, los **objetos** se **utilizan para almacenar colecciones de datos** y **entidades** más **complejas** como un **array** (arreglo).
 
-- Symbol
+- **Symbol**
 
 Se utiliza para **crear identificadores únicos** para los **objetos**.
 
